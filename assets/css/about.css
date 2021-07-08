@@ -1,6 +1,8 @@
 .jc-center {
   justify-content: center;
 }
-.sub-heading-wrapper {
+
+.about {
+  margin: 50px 0;
   text-align: center;
 }
