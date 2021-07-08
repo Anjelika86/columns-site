@@ -1,0 +1,33 @@
+
+
+.img-skills {
+  width: 100%;
+  
+} 
+.skills {
+  text-align: center;
+}
+.text-content-position {
+  position: relative;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.text-content-position::before {
+  content: '';
+  background: var(--accent-color);
+  height: 2px;
+  width: 80%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0px;
+  
+}
+@media screen and (min-width: 992px) {
+  .skills {
+    text-align: left;
+    margin-top: 100px;
+}  
+
+
+}
