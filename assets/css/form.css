@@ -1,0 +1,49 @@
+.form-article {
+  text-align: center;
+  margin: 30px 0;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input {
+  padding: 10px;
+  margin: 10px 0;
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+
+}
+.btn-form {
+  margin: 10px auto;
+    
+}
+
+
+@media screen and (min-width: 992px) {
+  .container-input {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .input {
+    flex-grow: 1;
+
+  }  
+  
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .input-left {
+    margin-left: 20px;
+  }
+}
+
